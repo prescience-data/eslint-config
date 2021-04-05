@@ -1,0 +1,28 @@
+{
+  "name": "opinionated-eslint",
+  "version": "1.0.0",
+  "description": "An opinionated TypeScript eslint rigging config based on Rushstack",
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "typescript-eslint",
+    "rigging",
+    "rush"
+  ],
+  "homepage": "https://github.com/prescience-data/opinionated-eslint",
+  "repository": "https://github.com/prescience-data/opinionated-eslint",
+  "license": "MIT",
+  "author": "presciencedata@gmail.com",
+  "main": "index.js",
+  "scripts": {
+    "sort": "sort-package-json",
+    "upgrade": "ncu -u --packageFile package.json --loglevel error"
+  },
+  "dependencies": {
+    "@rushstack/eslint-config": "^2.3.2",
+    "@typescript-eslint/eslint-plugin": "^4.20.0",
+    "@typescript-eslint/parser": "^4.20.0",
+    "eslint": "^7.23.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0"
+  }
+}
